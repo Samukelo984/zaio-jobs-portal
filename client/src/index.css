@@ -8,9 +8,14 @@
 }
 
 :root {
-  --background-color: #0d1e3a;
-  --pill-primary: #8437f9;
-  --pill-secondary: #f9c803;
-  --hover-color: #dedede;
+  --dark-blue: #0d1e3a;
+  --purple: #8437f9;
+  --brush-gold: #f9c803;
+  --light-gray: #dedede;
   --white: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
