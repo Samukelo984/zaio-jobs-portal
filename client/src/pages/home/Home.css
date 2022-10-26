@@ -1,0 +1,19 @@
+.home {
+  background-color: var(--dark-blue);
+}
+
+.home h1 {
+  padding-top: 1.2em;
+}
+
+.home-headings {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+}
+
+.home-headings h5 {
+  font-weight: 600;
+}

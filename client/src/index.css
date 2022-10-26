@@ -8,6 +8,7 @@
 }
 
 :root {
+  --blue: #1f2c42;
   --dark-blue: #0d1e3a;
   --purple: #8437f9;
   --brush-gold: #f9c803;
@@ -18,4 +19,10 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+
+h1 {
+  margin-left: 2em;
+  font-weight: 600;
+  color: var(--white);
 }
