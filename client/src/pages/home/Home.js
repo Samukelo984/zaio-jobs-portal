@@ -2,6 +2,7 @@ import "./Home.css";
 import React from "react";
 import UserFilters from "../../components/userfilters/UserFilters";
 import SearchInput from "../../components/searchInput/SearchInput";
+import JobContent from "../../components/jobContent/JobContent";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <h2>Recommended Job Feed</h2>
         <h5>Based on your activity on Zaio</h5>
       </article>
+      <JobContent />
     </main>
   );
 };
