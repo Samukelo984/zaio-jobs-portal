@@ -9,7 +9,7 @@
 }
 
 .pagination span {
-  padding: 0.6em;
+  padding: 0.4em 1em 0.4em 1em;
   margin-right: 1em;
   cursor: pointer;
 }

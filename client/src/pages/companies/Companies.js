@@ -6,12 +6,12 @@ import Pagination from "../../components/pagination/Pagination";
 
 const Companies = () => {
   return (
-    <section className="companies">
+    <main className="companies">
       <BackArrow />
       <h1>Companies</h1>
       <BusinessCard />
       <Pagination />
-    </section>
+    </main>
   );
 };
 

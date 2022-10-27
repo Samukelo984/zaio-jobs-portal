@@ -1,0 +1,95 @@
+.form-container {
+  height: 102vh;
+}
+
+.postjob-form {
+  width: 35rem;
+  padding: 0.4em;
+  margin-left: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 0.4rem;
+}
+
+.form-container article {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-container aside {
+  padding: 1.4em;
+}
+
+.form-input {
+  padding: 0.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input label,
+.form-textarea label {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.form-input input {
+  padding: 0.6em;
+  outline: none;
+  border: none;
+  background-color: var(--light-gray);
+  border-radius: 0.2rem;
+}
+
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-textarea textarea {
+  width: 16rem;
+  height: 4.4rem;
+  outline: none;
+  border: none;
+  resize: none;
+  background-color: var(--light-gray);
+  border-radius: 0.2rem;
+}
+
+.postjob-form button {
+  width: 40%;
+  padding: 0.6em 0.8em;
+  margin-bottom: 1em;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.postjob-form button:nth-child(2) {
+  color: var(--white);
+  background-color: var(--purple);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.postjob-form button:nth-child(2):hover {
+  transform: scale(0.95);
+}
+.postjob-form button:nth-child(3) {
+  color: var(--black);
+  background-color: var(--brush-gold);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.postjob-form button:nth-child(3):hover {
+  transform: scale(0.95);
+}
