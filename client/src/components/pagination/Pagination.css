@@ -15,7 +15,7 @@
 }
 
 .page-nr:hover {
-  color: #000;
+  color: var(--black);
   border-radius: 50%;
   background-color: var(--brush-gold);
 }

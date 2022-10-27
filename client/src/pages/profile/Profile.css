@@ -1,0 +1,109 @@
+.profile {
+  background-color: var(--dark-blue);
+}
+
+.profile-container {
+  padding: 2em 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-container aside {
+  padding: 0.8em;
+  margin-bottom: 1.4em;
+  color: var(--dark-blue);
+  background-color: var(--white);
+  border-radius: 0.4rem;
+}
+
+.profile-container aside span {
+  margin-bottom: 0.4em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container aside span h4 {
+  font-size: 1.2rem;
+}
+
+.pen-icon {
+  color: var(--mid-gray);
+}
+
+.pen-icon.only {
+  margin-left: 4em;
+}
+
+.profile-left aside {
+  min-width: 18rem;
+  max-width: fit-content;
+  min-height: fit-content;
+  max-height: fit-content;
+  padding: 0.9em;
+  margin-right: 4em;
+}
+
+.profile-left aside:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-icon {
+  width: fit-content;
+  padding: 0.3em;
+  margin: 0.2em;
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  background-color: var(--light-gray);
+  font-size: 5rem;
+  border-radius: 50%;
+}
+
+.profile-left aside h5 {
+  font-size: 1.2rem;
+}
+
+.profile-left aside a {
+  margin-top: 1em;
+  color: var(--purple);
+}
+
+.profile-left label {
+  padding: 0.8em;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: var(--purple);
+  background-color: var(--light-gray);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.profile-left ul {
+  padding-left: 1em;
+}
+
+.profile-left ul li {
+  padding: 0.4em;
+}
+
+.profile-right-info {
+  display: flex;
+}
+
+.profile-right-info img {
+  width: 6rem;
+  height: 5rem;
+  margin-right: 2em;
+  object-fit: cover;
+  background-color: var(--mid-gray);
+  border-radius: 0.2rem;
+}
+
+.profile-right-info p {
+  display: flex;
+  flex-direction: column;
+}

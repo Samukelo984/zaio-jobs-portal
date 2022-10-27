@@ -1,5 +1,5 @@
 .form-container {
-  height: 102vh;
+  height: 105vh;
 }
 
 .postjob-form {
@@ -66,10 +66,10 @@
 }
 
 .postjob-form button {
-  width: 40%;
-  padding: 0.6em 0.8em;
+  width: 32%;
+  padding: 0.6em;
   margin-bottom: 1em;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
   border: none;
   border-radius: 0.2rem;
